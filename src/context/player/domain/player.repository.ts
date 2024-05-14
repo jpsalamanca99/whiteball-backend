@@ -2,7 +2,7 @@ import { Criteria } from '../../shared/domain/criteria/criteria';
 import { Player } from './player.aggregate';
 import { PlayerId } from './valueObjects/playerId.valueObject';
 
-export interface CustomerRepository {
+export interface PlayerRepository {
   find(id: PlayerId): Promise<Player | null>;
   add(customer: Player): Promise<Player>;
   update(customer: Player): Promise<Player>;
