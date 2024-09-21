@@ -5,6 +5,7 @@ import { IntValueObject } from './int.ValueObject';
 import { NumberValueObject } from './number.ValueObject';
 import { StringValueObject } from './string.ValueObject';
 import { ValueObject } from './valueObject';
+import { Uuid } from './uuid.valueObject';
 
 export {
   ValueObject,
@@ -14,4 +15,5 @@ export {
   StringValueObject,
   EnumValueObject,
   IntValueObject,
+  Uuid,
 };

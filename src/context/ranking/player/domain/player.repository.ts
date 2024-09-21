@@ -1,4 +1,4 @@
-import { Criteria } from '../../shared/domain/criteria/criteria';
+import { Criteria } from '../../../../context/shared/domain/criteria/criteria';
 import { Player } from './player.aggregate';
 import { PlayerId } from './valueObjects/playerId.valueObject';
 
